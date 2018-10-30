@@ -81,6 +81,7 @@ Calc2()
 	//setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
 }	
+	//arithmetic operation
 	public void arithmetic()
 		{	        
 		switch(calculation){
@@ -171,20 +172,11 @@ Calc2()
        	if(e.getSource()==bclear)
 		t.setText("");
 	if(e.getSource()==beq)
-		arithmetic();
-	
+		arithmetic(); //call the arithmetic function   
         
-        
-                     
     }
-	//arithmetic operation
-	
-
 	public static void main(String args[])
 	{
-
 		new Calc2();
-
 	}
-
 }
